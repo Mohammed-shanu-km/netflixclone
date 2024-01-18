@@ -1,0 +1,51 @@
+.swipers {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slides {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swipers {
+   
+    margin-top: 48px;
+  }
+  .mySwipers{
+    height: 450px;
+    width: 850px;
+    border-radius: 20px;
+  }
+  .suii{
+    border-radius: 20px;
+  }
+  .contents{
+    
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 50px;
+    color: white;
+
+}
+.contents h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.contents p{
+  text-align: center;
+  font-size: 16px;
+
+}

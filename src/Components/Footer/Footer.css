@@ -1,0 +1,152 @@
+.footer {
+    background-color: white;
+    width: 100%;
+}
+ 
+ .footer-container{
+    padding: 50px 50px;
+}
+.footer-box{
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: red; */
+}
+.footer-box{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 50px 0;
+}
+/* .boxes1{
+    display: flex;
+
+} */
+.boxes2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.underline{
+
+    width: 85%;
+    height: 1px;
+background-color:  #758388;;
+    /* margin-top: -10px; */
+    display: flex; 
+    align-items: center;
+    margin-top: -10px;
+    justify-content: center;
+    margin-left: 100px;
+   
+}
+.boxes1 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #0f3e4e;
+
+}
+.boxes1 p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    color: #758388;
+}
+.ioo{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+.peepi{
+    color: #758388;
+}
+.boxes2 h1{
+    font-family: 'Inter', sans-serif;
+   
+    font-size: 20px;
+    color: #0f3e4e;
+}
+.boxes2 a{
+    margin-top: 10px;
+    color: 13px;
+    color: #758388;
+}
+@media screen and (max-width: 991px){
+    .footer-container{
+       
+        padding: 50px 0px;
+        
+    }
+    .boxes1 h1 {
+       
+        font-size: 20px;
+        color: #0f3e4e;
+    }
+    .boxes1 p{
+        margin-top: 15px;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 1px;
+        color: #758388;
+    }
+   
+   
+    
+}
+@media screen and (max-width: 770px){
+    .footer-container{
+       
+        padding: 50px 52px;
+        
+    }
+    .boxes1 h1 {
+        font-family: 'Inter', sans-serif;
+        font-size: 17px;
+        color: #0f3e4e;
+    }
+    .boxes1 h1 {
+        font-family: 'Inter', sans-serif;
+        font-size: 17px;
+        color: #0f3e4e;
+    }
+    .boxes2 h1 {
+        
+        font-size: 13px;
+        
+    }
+    .boxes2 a {
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        color: #0f3e4e;
+    }
+    .underline{
+        margin-left:28px ;
+        width: 94%;
+    }
+}
+@media screen and (max-width: 640px){
+    .footer-container{
+       
+        padding: 50px 23px;
+        
+    }
+    .footer-box {
+        width: 100%;
+        /* height: 300px; */
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: -75px;
+
+    }
+    .boxes2{
+        margin-top: 30px;
+    }
+    .boxes1{
+        margin-top: 30px;
+    }
+}
